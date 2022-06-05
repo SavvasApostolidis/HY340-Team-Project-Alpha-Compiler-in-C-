@@ -1,0 +1,11 @@
+t = [
+	{"()":(function(table , message){ print(message , "\n"); print(table);})},
+	{10 : "gata"},
+	{"skulos" : "spiti"}
+];
+
+t("hello"); //prints the messae ,then the table 
+
+t2 = [{"()":print}];
+
+t2("hi\n"); //prints t2 and the message hi

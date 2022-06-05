@@ -1,0 +1,18 @@
+t= [0,"gata",[5,4],(function(){print("trexw\n");})];
+t2= objectcopy(t);
+print(t,"\n");
+print(t2,"\n");
+
+t[0]=2;
+t[1]="spiti";
+t[2][0]=2;
+print(t,"\n");
+print(t2,"\n");
+
+t[3]();
+t2[3]();
+
+t[3]= 4;
+t2[3]();//its fine
+
+t[3]();//sould be an error

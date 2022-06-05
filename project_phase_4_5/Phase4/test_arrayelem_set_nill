@@ -1,0 +1,3 @@
+t = ["an entry"];
+t[0] = nil; print(t[0]); //prints nil 
+print(objecttotalmembers(t)); //prints 0

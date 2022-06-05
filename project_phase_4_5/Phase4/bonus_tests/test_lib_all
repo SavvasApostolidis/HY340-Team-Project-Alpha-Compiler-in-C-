@@ -1,0 +1,61 @@
+(
+    function(y){
+        print("input and typeof input\n");
+        x= input();
+        
+        print(x);
+        print("\n");
+        
+        print(typeof(x));
+        print("\n");
+        
+        print("totalarguments,sould be 1\n");
+        print(totalarguments());
+        print("\n");
+	    
+        print("argument of 0,sould be 5\n");
+        print(argument(0));
+        print("\n");
+
+        print("t=[0,1,2,[1,2]]\n");
+        t=[0,1,2,[1,2]];
+        
+        print("objectmemberkeys of t\n");
+        print(objectmemberkeys(t));
+        print("\n");
+        
+        print("objecttotalmembers of objectmemberkeys of t \n");
+        print(objecttotalmembers(objectmemberkeys(t)));
+        print("\n");
+        
+        print("strtonum of 0.0 and typeof\n");
+        x2= strtonum("0.0");
+        
+        print(x2);
+        print("\n");
+        
+        print(typeof(x2));
+        print("\n");
+        
+        print("sqrt of 9 and  -5 ,cos 90 and sin 270\n");
+        x3= sqrt(9);
+        
+        print(x3);
+        print("\n");
+        
+        x4=sqrt(-5);
+        
+        print(x4);
+        print("\n");
+        
+        print(cos(90));
+        print("\n");
+	    
+        
+        print(sin(270));
+        print("\n");
+    }
+)(5);
+
+print("calling argument out of function \n");
+argument(-1);

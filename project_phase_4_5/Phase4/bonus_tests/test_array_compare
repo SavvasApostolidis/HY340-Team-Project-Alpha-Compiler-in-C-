@@ -1,0 +1,48 @@
+
+gata = 3;
+spiti = 4;
+
+n=[1,2,3];
+h=[1,2,3];
+n.v=5;
+h.v=5;
+l=[{3:n},{"gata":4}];
+k=[{3:h},{"gata":4}];
+print(l);
+print("\n");
+print(k);
+print("\n");
+
+
+t=[1,2,l];
+z=[1,2,k];
+
+
+
+x = (t==z);
+print(x);
+
+print("\ntwra false\n");
+
+gata = 3;
+spiti = 4;
+
+n=[1,2,3];
+h=[1,2,3];
+n.v=5;
+h.b=5;
+l=[{3:n},{"gata":4}];
+k=[{3:h},{"gata":4}];
+print(l);
+print("\n");
+print(k);
+print("\n");
+
+t=[1,2,l];
+z=[1,2,k];
+
+
+
+x = (t==z);
+print(x);
+print("\n");

@@ -1,0 +1,15 @@
+x = (t="gata"+"skilos\n") or "x";
+print(t);
+print(x);
+print("\n");
+
+function f(){return "spiti";}
+function g(){return "moy";}
+
+word = f()+ g();
+print(word);
+print("\n");
+
+numberwordstring =5+ f()+4;
+print(numberwordstring);
+print("\n");
